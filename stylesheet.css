@@ -39,12 +39,12 @@ html {
   margin-left: 15px;
 }
 .huge-text {
-  font-size: 60px;
-  line-height: 60px;
+  font-size: 2em;
+  line-height: 2;
 }
 .small-text {
-  font-size: 25px;
-  line-height: 25px;
+  font-size: 1em;
+  line-height: 1;
 }
 .user-area {
   position: absolute;
@@ -69,8 +69,8 @@ html {
 }
 .score-team,
 .score-date {
-  font-size: 25px;
-  line-height: 25px;
+  font-size: 1em;
+  line-height: 1;
 }
 .score-team {
   font-weight: 700;
