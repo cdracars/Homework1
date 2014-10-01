@@ -3,7 +3,7 @@ html {
   font-family: 'Open Sans', sans-serif;
 }
 .fancy {
-  line-height: 0.7;
+  line-height: 0.7%;
   text-align: center;
   color: #FFFFD9;
   text-transform: uppercase;
@@ -40,11 +40,11 @@ html {
 }
 .huge-text {
   font-size: 2em;
-  line-height: 2;
+  line-height: 150%;
 }
 .small-text {
   font-size: 1em;
-  line-height: 1;
+  line-height: 200%;
 }
 .user-area {
   position: absolute;
@@ -70,7 +70,7 @@ html {
 .score-team,
 .score-date {
   font-size: 1em;
-  line-height: 1;
+  line-height: 100%;
 }
 .score-team {
   font-weight: 700;
