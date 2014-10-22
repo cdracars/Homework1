@@ -1,0 +1,135 @@
+html {
+  background-color: #9A1D21;
+  font-family: 'Open Sans', sans-serif;
+}
+.fancy {
+  line-height: 0.7;
+  text-align: center;
+  color: #FFFFD9;
+  text-transform: uppercase;
+}
+.fancy .line {
+  display: inline-block;
+  position: relative;
+}
+.fancy .single:before,
+.fancy .single:after {
+  content: "";
+  position: absolute;
+  height: 18px;
+  border-bottom: 2px solid #FFFFD9;
+  top: 75px;
+  width: 600px;
+}
+.fancy .double:before,
+.fancy .double:after {
+  content: "";
+  position: absolute;
+  height: 25px;
+  border-bottom: 6px solid #FFFFD9;
+  top: 90px;
+  width: 600px;
+}
+.fancy .line:before {
+  right: 100%;
+  margin-right: 15px;
+}
+.fancy .line:after {
+  left: 100%;
+  margin-left: 15px;
+}
+.huge-text {
+  font-size: 2.2em;
+  line-height: 1.1;
+}
+.middle-text {
+  font-size: 1.3em;
+  line-height: 1.1;
+}
+.small-text {
+  font-size: .75em;
+  line-height: 1.1;
+}
+.user-area {
+  position: absolute;
+  top: 60px;
+  right: 10%;
+  color: #FFFFD9;
+}
+.score-area {
+  color: #fff;
+  width: 80%;
+  background: url('images/football.jpg') no-repeat #000;
+  height: 250px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+.score-row-wrapper{
+  margin-top: 25px;
+}
+.score-team-wrapper,
+.score-vs {
+  display: inline-block;
+}
+.score-team,
+.score-date {
+  font-size: 1.5em;
+  line-height: 1;
+}
+.score-team {
+  font-weight: 700;
+}
+.score-vs {
+  position: relative;
+  top: -18px;
+}
+.score-row-wrapper {
+  float: right;
+  width: 60%;
+}
+.score-row {
+  margin-right: 10%;
+  text-align: center;
+}
+.game-wrapper {
+  width: 80%;
+  margin: 0 auto;
+  white-space:nowrap;
+  text-align:center;
+}
+.game {
+  color: #FFFFD9;
+  width: 31.04%;
+  height: 200px;
+  background-color: #000;
+  display: inline-block;
+  margin: 15px 1.5%;
+}
+.first {
+  margin-left: 0;
+}
+.last {
+  margin-right: 0
+}
+
+.position {
+  color: #FFFFD9;
+  font-size: 2.5em;
+  font-weight: 700;
+  margin-left: 10px;
+  margin-top: 0;
+  position: absolute;
+}
+.player-score {
+  font-size: 25px;
+  text-align: center;
+  position: relative;
+  top: 10%;
+}
+.gray {
+  color: #bababa;
+}
+.red {
+  color: #9A1D21;
+  font-size: 2em;
+}
